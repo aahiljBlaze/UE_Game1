@@ -2143,3 +2143,362 @@ Sampler Limit: 32
 [2025.04.24-14.53.43:899][333]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
 [2025.04.24-14.53.43:912][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
 [2025.04.24-14.53.43:963][334]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.04.24-14.57.04:333][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.04.24-14.57.07:441][335]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-14.57.07:446][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-14.57.07:446][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_1
+[2025.04.24-14.57.07:484][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037330s)
+[2025.04.24-14.57.07:484][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_1.Level_1 to /Game/UEDPIE_0_Level_1.Level_1 (0.037366s)
+[2025.04.24-14.57.07:506][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.04.24-14.57.07:510][335]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_1
+[2025.04.24-14.57.07:512][335]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2025.04.24-14.57.07:512][335]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-14.57.07:512][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-14.57.07:512][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-14.57.07:512][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-14.57.07:512][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-14.57.07:512][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-14.57.07:515][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-14.57.07:536][335]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Jabra EVOLVE 20)
+[2025.04.24-14.57.07:536][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-14.57.07:536][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-14.57.07:536][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-14.57.07:537][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.04.24-14.57.07:537][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.04.24-14.57.07:539][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.04.24-14.57.07:539][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.04.24-14.57.07:539][335]LogInit: FAudioDevice initialized with ID 9.
+[2025.04.24-14.57.07:539][335]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_1'.
+[2025.04.24-14.57.07:539][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.24-14.57.07:542][335]LogLoad: Game class is 'GameModeBase'
+[2025.04.24-14.57.07:565][335]LogWorld: Bringing World /Game/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2025.04.24-20.27.07
+[2025.04.24-14.57.07:565][335]LogWorld: Bringing up level for play took: 0.022839
+[2025.04.24-14.57.07:568][335]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.04.24-14.57.07:574][335]PIE: Server logged in
+[2025.04.24-14.57.07:575][335]PIE: Play in editor total start time 0.129 seconds.
+[2025.04.24-14.57.15:789][823]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level_2"
+[2025.04.24-14.57.15:789][823]LogNet: Browse: /Game/Level_2
+[2025.04.24-14.57.15:789][823]LogLoad: LoadMap: /Game/Level_2
+[2025.04.24-14.57.15:789][823]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_1
+[2025.04.24-14.57.15:790][823]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-14.57.15:796][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-14.57.15:821][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-14.57.15:829][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.04.24-14.57.15:833][823]LogStreaming: Display: FlushAsyncLoading(699): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.24-14.57.15:880][823]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_2'.
+[2025.04.24-14.57.15:880][823]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_2
+[2025.04.24-14.57.15:882][823]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2025.04.24-14.57.15:882][823]LogLoad: Game class is 'GameModeBase'
+[2025.04.24-14.57.16:170][823]LogWorld: Bringing World /Game/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2025.04.24-20.27.16
+[2025.04.24-14.57.16:170][823]LogWorld: Bringing up level for play took: 0.287505
+[2025.04.24-14.57.16:170][823]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.04.24-14.57.16:174][823]LogLoad: Took 0.384237 seconds to LoadMap(/Game/Level_2)
+[2025.04.24-14.57.16:174][823]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level_2
+[2025.04.24-14.57.25:540][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-14.57.25:540][383]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_2
+[2025.04.24-14.57.25:541][383]LogWorld: UWorld::CleanupWorld for Level_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-14.57.25:546][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-14.57.25:553][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-14.57.25:559][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-14.57.25:585][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-14.57.25:585][383]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.24-14.57.25:585][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.24-14.57.25:588][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.24-14.57.25:601][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.04.24-14.57.25:651][384]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.04.24-14.57.41:690][336]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject" Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=AAHIL -utf8output -WaitForUATMutex  -EditorIO -EditorIOPort=52373  -project="C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject"" -nocompile -nocompileuat ]
+[2025.04.24-14.57.41:704][336]LogStreaming: Display: FlushAsyncLoading(700): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.24-14.57.41:706][336]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave CompileSuccess...
+[2025.04.24-14.57.41:710][336]LogAudioDerivedData: Display: CompileSuccess compressed to 14.13% (from 93KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.24-14.57.41:710][336]LogAudio: Display: Chunk stats for (SoundWave /Engine/EditorSounds/Notifications/CompileSuccess.CompileSuccess: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13553 bytes, ChunkN=0)
+[2025.04.24-14.57.41:790][338]UATHelper: Verifying SDK and Device (Windows): Running AutomationTool...
+[2025.04.24-14.57.41:894][341]UATHelper: Verifying SDK and Device (Windows): Using bundled DotNet SDK version: 8.0.300
+[2025.04.24-14.57.42:148][349]UATHelper: Verifying SDK and Device (Windows): Starting AutomationTool...
+[2025.04.24-14.57.42:159][350]UATHelper: Verifying SDK and Device (Windows): Parsing command line: -ScriptsForProject=C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=AAHIL -utf8output -WaitForUATMutex -EditorIO -EditorIOPort=52373 -project=C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject -nocompile -nocompileuat
+[2025.04.24-14.57.42:404][364]UATHelper: Verifying SDK and Device (Windows): Initializing script modules...
+[2025.04.24-14.57.43:145][409]UATHelper: Verifying SDK and Device (Windows): Total script module initialization time: 0.74 s.
+[2025.04.24-14.57.43:239][414]UATHelper: Verifying SDK and Device (Windows): Using C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe
+[2025.04.24-14.57.43:663][440]UATHelper: Verifying SDK and Device (Windows): Executing commands...
+[2025.04.24-14.57.43:854][451]UATHelper: Verifying SDK and Device (Windows): Installed Sdk validity:
+[2025.04.24-14.57.43:865][452]UATHelper: Verifying SDK and Device (Windows): Win64: (Status=Invalid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.04.24-14.57.43:886][453]UATHelper: Verifying SDK and Device (Windows): Will install ''
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): Win64@Aahil: (Name=Aahil, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.22631.0, Flags="Device_InstallSoftwareValid")
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): Scanning for envvar changes...
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): ... done! 
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): Cleaning Temp Paths...
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): BUILD SUCCESSFUL
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): AutomationTool executed for 0h 0m 1s
+[2025.04.24-14.57.43:896][454]UATHelper: Verifying SDK and Device (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2025.04.24-14.57.43:957][457]LogStreaming: Display: FlushAsyncLoading(701): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.24-14.57.43:988][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.04.24-14.57.46:065][458]LogSlate: Window 'Save Content' being destroyed
+[2025.04.24-14.57.46:074][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-14.57.46:161][458]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Item] ([2] browsable assets)...
+[2025.04.24-14.57.46:233][458]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Item.Item]
+[2025.04.24-14.57.46:233][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Item]
+[2025.04.24-14.57.46:233][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Item" FILE="../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Content/Item.uasset" SILENT=true
+[2025.04.24-14.57.46:239][458]LogSavePackage: Moving output files for package: /Game/Item
+[2025.04.24-14.57.46:240][458]LogSavePackage: Moving '../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Saved/Item1386824F4808B21EABD9CC8203BFB244.tmp' to '../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Content/Item.uasset'
+[2025.04.24-14.57.46:242][458]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player] ([2] browsable assets)...
+[2025.04.24-14.57.46:255][458]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player.Player]
+[2025.04.24-14.57.46:255][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player]
+[2025.04.24-14.57.46:255][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Content/Player.uasset" SILENT=true
+[2025.04.24-14.57.46:267][458]LogSavePackage: Moving output files for package: /Game/Player
+[2025.04.24-14.57.46:268][458]LogSavePackage: Moving '../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Saved/PlayerD136739940D8DA1AE909648805C4B8C2.tmp' to '../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Content/Player.uasset'
+[2025.04.24-14.57.46:296][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 223.751 ms (total: 1.01 sec)
+[2025.04.24-14.57.46:299][458]LogPlayLevel: Launcher Device ID: Windows@AAHIL
+[2025.04.24-14.57.46:301][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-14.57.46:566][459]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.24-14.57.46:566][459]LogContentValidation: Enabled validators:
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.24-14.57.46:566][459]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.24-14.57.46:566][459]AssetCheck: /Game/Item Validating asset
+[2025.04.24-14.57.46:566][459]AssetCheck: /Game/Player Validating asset
+[2025.04.24-14.57.47:007][473]LogPlayLevel: UAT: Running AutomationTool...
+[2025.04.24-14.57.47:155][482]LogPlayLevel: UAT: Using bundled DotNet SDK version: 8.0.300
+[2025.04.24-14.57.47:166][483]LogPlayLevel: UAT: Starting AutomationTool...
+[2025.04.24-14.57.47:304][491]LogPlayLevel: UAT: Parsing command line: -ScriptsForProject=C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject BuildCookRun -project=C:/Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Aahil2.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -unrealexe="C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -utf8output -platform=Win64 -cook -map=/Game/Level_1+/Game/Level_1 -CookCultures=en -unversionedcookedcontent -stage -deploy -cmdline="/Game/Level_1 -Messaging" -device=Windows@AAHIL -addcmdline="-SessionId=E344B0254DAF2266A2E116B2CA20EC75 -SessionOwner='aahilj' -SessionName='Launch On Device'    " -run
+[2025.04.24-14.57.47:624][510]LogPlayLevel: UAT: Initializing script modules...
+[2025.04.24-14.57.47:686][514]LogPlayLevel: UAT: Total script module initialization time: 0.31 s.
+[2025.04.24-14.57.48:025][535]LogPlayLevel: UAT: Using C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe
+[2025.04.24-14.57.48:036][535]LogPlayLevel: UAT: Executing commands...
+[2025.04.24-14.57.48:685][574]LogPlayLevel: UAT: Setting up ProjectParams for C:\Users\aahil\OneDrive\Documents\GitHub\UE_Game1\Aahil2.uproject
+[2025.04.24-14.57.48:685][574]LogPlayLevel: UAT: ********** COOK COMMAND STARTED **********
+[2025.04.24-14.57.48:685][574]LogPlayLevel: UAT: HasMapsToCook /Game/Level_1+/Game/Level_1
+[2025.04.24-14.57.48:685][574]LogPlayLevel: UAT: Params.HasMapsToCook /Game/Level_1+/Game/Level_1
+[2025.04.24-14.57.48:685][574]LogPlayLevel: UAT: Running UnrealEditor Cook for project C:\Users\aahil\OneDrive\Documents\GitHub\UE_Game1\Aahil2.uproject
+[2025.04.24-14.57.48:707][575]LogPlayLevel: UAT: Commandlet log file is C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.04.24-20.27.48.txt
+[2025.04.24-14.57.48:840][583]LogPlayLevel: Completed Launch On Stage: Launch Task, Time: 2.034996
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: Running: C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\aahil\OneDrive\Documents\GitHub\UE_Game1\Aahil2.uproject" -run=Cook -Map=/Game/Level_1+/Game/Level_1 -CookCultures=en -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.04.24-20.27.48.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.04.24-14.57.49:643][631]LogPlayLevel: Warning: UAT: LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": The parameter is incorrect.
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogInit: Display: Running engine for game: Aahil2
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogTrace: Display: Display Control listening on port 34102
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-38445549"
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : engineversion="5.5.1-38445549+++UE5+Release-5.5"
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.5189] "
+[2025.04.24-14.57.49:643][631]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 5800H with Radeon Graphics"
+[2025.04.24-14.57.49:654][632]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.04.24-14.57.49:654][632]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.04.24-14.57.49:654][632]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.04.24-14.57.49:654][632]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.04.24-14.57.49:654][632]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\aahil\OneDrive\Documents\GitHub\UE_Game1\Aahil2.uproject -run=Cook -Map=/Game/Level_1+/Game/Level_1 -CookCultures=en -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.04.24-20.27.48.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : loginid="bd4ad6f543d7e7bcb504e28bca690a02"
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading VulkanPC ini files took 0.15 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading Mac ini files took 0.15 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogAssetRegistry: Display: Asset registry cache read as 35.6 MiB from ../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Intermediate/CachedAssetRegistry_0.bin
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading Unix ini files took 0.16 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading IOS ini files took 0.17 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading Android ini files took 0.17 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading Windows ini files took 0.17 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading TVOS ini files took 0.18 seconds
+[2025.04.24-14.57.50:379][666]LogPlayLevel: UAT: LogConfig: Display: Loading VisionOS ini files took 0.18 seconds
+[2025.04.24-14.57.51:070][668]LogPlayLevel: UAT: LogConfig: Display: Loading LinuxArm64 ini files took 0.20 seconds
+[2025.04.24-14.57.51:091][668]LogPlayLevel: UAT: LogConfig: Display: Loading Linux ini files took 0.20 seconds
+[2025.04.24-14.57.51:458][669]LogPlayLevel: UAT: RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.04.24-14.57.51:458][669]LogPlayLevel: UAT: LogStudioTelemetry: Display: Starting StudioTelemetry Module
+[2025.04.24-14.57.51:479][669]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+[2025.04.24-14.57.51:627][670]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Initialized
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogHAL: Display: Platform has ~ 14 GB [14877257728 / 17179869184 / 14], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.04.24-14.57.51:682][670]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.04.24-14.57.51:692][670]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.04.24-14.57.51:733][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.04.24-14.57.51:775][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.04.24-14.57.51:775][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.04.24-14.57.51:807][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.04.24-14.57.51:807][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.04.24-14.57.51:807][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.04.24-14.57.51:807][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.04.24-14.57.51:850][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.04.24-14.57.51:850][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.04.24-14.57.51:850][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.04.24-14.57.51:881][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.04.24-14.57.51:881][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.04.24-14.57.51:881][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.04.24-14.57.51:881][670]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.04.24-14.57.51:913][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.04.24-14.57.51:913][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.04.24-14.57.51:955][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.04.24-14.57.51:955][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.04.24-14.57.51:955][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.04.24-14.57.51:955][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.04.24-14.57.51:955][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.04.24-14.57.51:976][671]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.04.24-14.57.52:931][674]LogPlayLevel: UAT: LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.04.24-14.57.53:013][674]LogPlayLevel: UAT: LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.04.24-14.57.53:024][674]LogPlayLevel: UAT: LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.04.24-14.57.53:024][674]LogPlayLevel: UAT: LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1574 MiB)
+[2025.04.24-14.57.53:097][674]LogPlayLevel: UAT: LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.04.24-14.57.53:107][674]LogPlayLevel: UAT: LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.04.24-14.57.53:107][674]LogPlayLevel: UAT: LogDerivedDataCache: Display: C:/Users/aahil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.11ms. RandomReadSpeed=14.26MBs, RandomWriteSpeed=83.96MBs. Assigned SpeedClass 'Local'
+[2025.04.24-14.57.53:107][674]LogPlayLevel: UAT: LogShaderCompilers: Display: Using Local Shader Compiler with 13 workers.
+[2025.04.24-14.57.54:552][730]LogPlayLevel: UAT: LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.04.24-14.57.54:552][730]LogPlayLevel: UAT: LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.04.24-14.57.54:862][749]LogPlayLevel: UAT: LogEditorDomain: Display: EditorDomain is Disabled
+[2025.04.24-14.57.54:893][751]LogPlayLevel: UAT: LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches ../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Intermediate/CachedAssetRegistry_*.bin.
+[2025.04.24-14.57.54:893][751]LogPlayLevel: UAT: LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.24-14.57.54:926][753]LogPlayLevel: UAT: LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.04.24-14.57.54:947][754]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.04.24-14.57.54:958][755]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.04.24-14.57.54:969][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.24-14.57.54:979][756]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.04.24-14.57.55:064][761]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.04.24-14.57.55:064][761]LogPlayLevel: UAT: LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.04.24-14.57.55:064][761]LogPlayLevel: UAT: LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.04.24-14.57.55:064][761]LogPlayLevel: UAT: LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.04.24-14.57.55:279][774]LogPlayLevel: UAT: LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.04.24-14.57.55:290][775]LogPlayLevel: UAT: LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.04.24-14.57.55:556][791]LogPlayLevel: UAT: LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.04.24-14.57.55:556][791]LogPlayLevel: UAT: LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.04.24-14.57.56:141][826]LogPlayLevel: UAT: LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.04.24-14.57.56:141][826]LogPlayLevel: UAT: LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.708 ms
+[2025.04.24-14.57.57:516][908]LogPlayLevel: UAT: LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.04.24-14.57.57:516][908]LogPlayLevel: UAT: LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.04.24-14.57.57:516][908]LogPlayLevel: UAT: LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.24-14.57.58:211][950]LogPlayLevel: UAT: LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.24-14.57.58:211][950]LogPlayLevel: UAT: LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.24-14.57.58:904][992]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.24-14.57.58:904][992]LogPlayLevel: UAT: LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.24-14.57.58:904][992]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36271 public script object entries (983.67 KB)
+[2025.04.24-14.57.58:957][995]LogPlayLevel: UAT: LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.04.24-14.58.00:293][ 75]LogPlayLevel: Warning: UAT: LogAssetEditorSubsystem: Warning: Something went wrong while loading recent assets! Num Recent Assets  = 7, Num Recent Asset Editors = 6
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: LogCook: Display: CookSettings for Memory:
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: 	MemoryMaxUsedVirtual 0MiB
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: 	MemoryMaxUsedPhysical 0MiB
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: 	MemoryMinFreeVirtual 2048MiB
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: 	MemoryMinFreePhysical 2048MiB
+[2025.04.24-14.58.00:614][ 94]LogPlayLevel: UAT: 	MemoryTriggerGCAtPressureLevel None
+[2025.04.24-14.58.00:624][ 95]LogPlayLevel: UAT: 	UseSoftGC true (5/10)
+[2025.04.24-14.58.01:496][147]LogPlayLevel: UAT: LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+[2025.04.24-14.58.01:674][158]LogPlayLevel: UAT: LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.04.24-14.58.01:748][162]LogPlayLevel: UAT: LogAssetRegistry: Display: Asset registry cache written as 35.6 MiB to ../../../../../../Users/aahil/OneDrive/Documents/GitHub/UE_Game1/Intermediate/CachedAssetRegistry_*.bin
+[2025.04.24-14.58.01:758][163]LogPlayLevel: UAT: LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.04.24-14.58.01:768][164]LogPlayLevel: UAT: LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.04.24-14.58.01:768][164]LogPlayLevel: UAT: LogZenStore: Display: Establishing oplog 'Aahil2.aee3cd9f/EditorDomain'
+[2025.04.24-14.58.01:779][164]LogPlayLevel: UAT: LogZenStore: Display: Zen project 'Aahil2.aee3cd9f' created
+[2025.04.24-14.58.01:811][166]LogPlayLevel: UAT: LogZenStore: Display: Zen oplog 'Aahil2.aee3cd9f/EditorDomain' created
+[2025.04.24-14.58.01:939][174]LogPlayLevel: UAT: LogCook: Display: Waiting for Asset Registry
+[2025.04.24-14.58.01:939][174]LogPlayLevel: UAT: LogCook: Display: FULL COOK: Neither -iterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+[2025.04.24-14.58.17:771][870]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 986.094910
+[2025.04.24-14.58.18:042][882]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.24-14.58.18:042][882]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 986.348389, Update Interval: 332.392334
+[2025.04.24-14.59.22:627][255]LogSlate: Window 'Output Log' being destroyed
+[2025.04.24-15.01.18:832][965]LogPlayLevel: UAT: LogCook: Display: Sandbox cleanup took 0.070 seconds for platforms Windows
+[2025.04.24-15.02.41:781][ 53]LogSlate: Window 'Output Log' being destroyed
+[2025.04.24-15.02.41:796][ 53]LogSlate: Window 'Output Log' being destroyed
+[2025.04.24-15.02.43:009][114]LogPlayLevel: UAT: LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.04.24-15.03.34:597][347]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 56, format PCD3D_SM6) compile time exceeded threshold (85.509s)
+[2025.04.24-15.04.04:254][435]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1332.578857
+[2025.04.24-15.04.05:252][438]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.24-15.04.05:252][438]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1333.247681, Update Interval: 349.639587
+[2025.04.24-15.04.18:130][477]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 32, format PCD3D_SM6) compile time exceeded threshold (42.082s)
+[2025.04.24-15.04.23:618][629]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 58, format PCD3D_SM6) compile time exceeded threshold (80.478s)
+[2025.04.24-15.04.38:482][336]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 59, format PCD3D_SM6) compile time exceeded threshold (30.553s)
+[2025.04.24-15.05.57:612][384]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 48, format PCD3D_SM6) compile time exceeded threshold (67.333s)
+[2025.04.24-15.05.57:962][385]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FPathTracingRG(permutation 1, format PCD3D_SM6) compile time exceeded threshold (30.558s)
+[2025.04.24-15.06.10:039][466]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 40, format PCD3D_SM6) compile time exceeded threshold (55.320s)
+[2025.04.24-15.06.11:884][471]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 33, format PCD3D_SM6) compile time exceeded threshold (42.873s)
+[2025.04.24-15.06.13:725][477]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 49, format PCD3D_SM6) compile time exceeded threshold (70.926s)
+[2025.04.24-15.06.51:442][888]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 50, format PCD3D_SM6) compile time exceeded threshold (66.614s)
+[2025.04.24-15.07.26:148][438]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 42, format PCD3D_SM6) compile time exceeded threshold (51.019s)
+[2025.04.24-15.07.44:105][594]LogPlayLevel: UAT: LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 34, format PCD3D_SM6) compile time exceeded threshold (32.434s)
+[2025.04.24-15.08.07:356][899]LogSlate: Window 'Output Log' being destroyed
+[2025.04.24-15.08.07:362][899]LogSlate: Window 'Output Log' being destroyed
+[2025.04.24-15.08.09:023][998]LogPlayLevel: Completed Launch On Stage: Cook Task, Time: 619.679007
+[2025.04.24-15.08.13:477][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.04.24-15.08.19:148][507]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
